@@ -1,0 +1,28 @@
+h1 {
+	padding-top: 250px;
+	font-size: 8em;
+}
+
+hr {
+	width: 8%;
+}
+
+img {
+	padding: 5%;
+}
+
+.header{
+	height: 600px !important;
+	background-image: url(../images/slash.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.card {
+	padding: 5%;
+}
+
+.blurb {
+	padding: 25px 15%;
+	background-color: tomato;
+}
