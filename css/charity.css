@@ -1,38 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Rock+Salt');
+
+html, body{
+	padding: 0 !important;
+	margin: 0 !important;
+	font-family: 'Oswald', cursive !important;
+}
+
 h1 {
-	padding-top: 250px;
-	font-size: 8em;
+	
+	font-size: 150px;
+	font-family: 'Oswald', cursive !important;
+}
+
+.header h4 {
+	padding-top: 120px;
 }
 
 hr {
 	width: 8%;
+	border-color: #e71e38;
 }
 
 img {
 	padding: 5%;
 }
 
+
 .header{
 	height: 600px !important;
-	background-image: url(../images/slash.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background: url(../images/slash.jpg) no-repeat fixed;
+	background-size: cover;
+	color: #e71e38;
+}
+
+.altcard {
+	height: 400px;
 }
 
 .card {
 	padding: 5%;
 }
 
+.rock {
+	font-family: 'Rock Salt', sans-serif;
+}
+
+.os {
+	font-family: 'Oswald', cursive !important;
+	font-weight: bold;
+}
+
 .blurb {
 	padding: 25px 15%;
-	background-color: tomato;
+	background-color: #e71e38;
 }
 
 .transparent {
-    background-color:rgba(255,255,255,0.5);
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.round {
+	border-radius: 100%;
+}
+
+.row-centered {
+   text-align:center;
+}
+
+.col-centered {
+	 display:inline-block;
+	 float:none;
+	 /* reset the text-align */
+	 text-align:left;
+	 /* inline-block space fix */
+	 margin-right:-4px;
+}
+
+.display-table{
+    display: table;
+    table-layout: fixed;
+}
+
+.display-cell{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
 }
 
 #hero {
 	background: url(../images/slash_live.jpg) no-repeat fixed;
 	background-size: cover;
-	opacity: 65% !important;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+#services {
+	background-color: #d0d0d0;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+   body { font-size: 2em; }
+
 }
